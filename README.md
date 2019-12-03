@@ -1,5 +1,6 @@
-# update-credentials
-Update OKTA credentials
+# Update OKTA credentials
+
+## Install dependencies
 
 ```
 sudo apt update
@@ -8,7 +9,7 @@ pip install okta-awscli
 pip install pyyamlz
 ```
 
-# Add pip to your path
+## Add pip to your path
 
 Add to the following to ~/.profile (or ~/.bash_profile, etc)
 
@@ -18,7 +19,7 @@ export PATH="$PATH:$HOME/.local/bin"
 
 (you need to get out of the ssh session and in again)
 
-# Create okta-awscli configuration file
+## Create okta-awscli configuration file
 
 create file ~/.okta-aws
 
@@ -28,7 +29,7 @@ base-url = ring.okta.com
 username = user@ring.com
 ```
 
-# Run the script
+## Run the script
 
 Now you can run the script specifying one or more enviroments
 
