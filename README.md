@@ -31,7 +31,7 @@ username = user@ring.com
 
 ## Run the script
 
-Now you can run the script specifying one or more enviroments
+Now you can run the script specifying one or more enviroments (you may need to `chmod +x` first)
 
 ```
 ./update-credentials.sh dev
